@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Modal} from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../actions/cartActions';
 export default function Pizza({ pizza }) {
     const [quantity, setquantity] = useState(1)

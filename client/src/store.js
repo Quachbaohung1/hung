@@ -12,11 +12,11 @@ const finalReducer = combineReducers({
     getAllPizzasReducer : getAllPizzasReducer,
     cartReducer : cartReducer
 })
-const cartItems = localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')) : []
+
+
+
 const initialState = {
-    cartReducer : {
-        cartItems : cartItems
-    }
+    
 }
 
 const composeEnhancers = composeWithDevTools({})
